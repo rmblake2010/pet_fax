@@ -7,11 +7,11 @@
     <title>Fact Form</title>
 </head>
 <body>
-    <form>
-        <label for="fact">Name</label>
-        <input type="text" value="Enter a Name here!"/>
+    <form action="/facts" method="POST">
+        <label for="fact" >Name</label>
+        <input type="text" name="name" value="Enter a Name here!"/>
         <label for="Fact">Fact</label>
-        <input type="text" value="Enter your fact here!">
+        <input type="text" name="fact" value="Enter your fact here!">
         <button type="submit">Submit</button>
     </form>
 </body>

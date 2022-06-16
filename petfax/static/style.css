@@ -1,0 +1,26 @@
+body{
+    background-color: whitesmoke;
+}
+
+#banner{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.container{
+    width:75%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.pet_container{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    height: 50%;
+    width: 50%;
+}
